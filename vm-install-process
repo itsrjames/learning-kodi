@@ -1,0 +1,21 @@
+Prototyping KODI server on VMWare Fusion Ubuntu 16.04LTS VM
+
+sudo apt-get update
+sudo apt-get install open-vm-tools
+Install VMWare Tools and reboot
+sudo apt-get install kodi
+
+Progress
+
+- ok got shared folders working
+- got kodi installed
+- created a vm share to the graid drive containing itunes media
+- added music source within kodi to point to vm share
+- have now noticed that air song folder which contains m4a suffixed files it recognized within kodi
+- but m4p files are not recognized within kodi due to the apple drm protection
+- will now try to use the trial version of noteburner to see if it can remove the drm from an m4p file if so
+the full version costs £20
+- noteburner looks like its only for converting drm protected video
+- looks like I need noteburner-itunes-drm-audio-converter !!!! ok also trial version for this let's see
+- well that's worked like a charm, so I got both programs for £59
+
